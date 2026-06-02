@@ -16,6 +16,7 @@ const Navbar = () => {
           label="GALLERY"
           items={[
             { to: '/gallery', label: 'All' },
+            { to: '/gallery/moon', label: 'Moon' },
             { to: '/gallery/planets', label: 'Planets' },
             { to: '/gallery/stars', label: 'Stars' },
             { to: '/gallery/dsos', label: 'DSOs' },
@@ -26,7 +27,7 @@ const Navbar = () => {
           label="OTHER"
           items={[
             { to: '/calculator', label: 'Calculator' },
-            { to: '/tips', label: 'Tips' },
+            { to: '/othernotes', label: 'Notes' },
             { to: '/about', label: 'About' },
             { to: '/contact', label: 'Contact' },
           ]}

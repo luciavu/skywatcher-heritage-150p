@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Gallery from './pages/Gallery.jsx';
 import GalleryHome from './pages/GalleryHome.jsx';
+import Moon from './pages/Moon.jsx';
 import Planets from './pages/Planets.jsx';
 import Stars from './pages/Stars.jsx';
 import DSOs from './pages/DSOs.jsx';
@@ -11,7 +12,7 @@ import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import Notes from './pages/Notes.jsx';
 import Calculator from './pages/Calculator.jsx';
-import Tips from './pages/Tips.jsx';
+import OtherNotes from './pages/OtherNotes.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />}>
           <Route index element={<GalleryHome />} />
+
+          <Route path="moon" element={<Moon />} />
           <Route path="planets" element={<Planets />} />
           <Route path="stars" element={<Stars />} />
           <Route path="dsos" element={<DSOs />} />
@@ -30,7 +33,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/calculator" element={<Calculator />} />
-        <Route path="/tips" element={<Tips />} />
+        <Route path="/morenotes" element={<OtherNotes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>

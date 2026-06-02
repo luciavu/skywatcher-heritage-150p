@@ -8,3 +8,10 @@ body {
   background-color: black;
   margin: 3rem 4rem;
 }
+
+@media (max-width: 768px) {
+  body {
+    margin: 2rem;
+    font-size: 14px;
+  }
+}

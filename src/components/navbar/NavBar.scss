@@ -17,15 +17,23 @@
   }
 }
 
+@media (max-width: 768px) {
+  .navgroup {
+    gap: 1rem !important;
+  }
+}
+
 .dropdown {
   position: relative;
 
   .dropdown-button {
     background: none;
+    border: none;
     cursor: pointer;
   }
 
   .dropdown-content {
+    background-color: black;
     margin-top: 0.5rem;
     margin-left: 0.4rem;
     position: absolute;
