@@ -12,7 +12,7 @@ EXIF_TOOL = "C:\\Users\\lucia\\exiftool-13.59_64\\exiftool-13.59_64\\exiftool.ex
 
 # All the code in the utils folder aren't used directly in the website
 # and was just written for personal use to pre-process the large amount of images I have before uploading them
-# so if you use this code, note that its very haphazard so just get ready to possibly download some things and change some lines to suit your case
+# so if you use this code, just get ready to possibly download some things and change some lines to suit your case
 
 def get_folder_exif(file_path):
     result = subprocess.run([EXIF_TOOL, "-j", file_path], capture_output=True, text=True)
@@ -47,18 +47,25 @@ def rename_and_add_metadata(folder_path):
     exif_data = get_folder_exif(folder_path)
     metadata = {}
 
-    for filename, exif in exif_data.items():
+    for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
 
-        try:   
+        if not os.path.isfile(file_path):
+            continue
+
+        if filename.lower().endswith(".json"):
+            continue
+        try: 
+            exif = exif_data.get(filename,{})  
             taken = exif.get("taken")
+
             if taken:
                 dt = datetime.strptime(taken.split(".")[0], "%Y:%m:%d %H:%M:%S")
             else:
                 dt = datetime.fromtimestamp(os.path.getmtime(file_path))
             
             timestamp = dt.strftime("%Y-%m-%d_%H-%M-%S")
-            ext = os.path.splitext(filename)[1].lower()
+            ext = ".jpg"
             new_filename = f"{timestamp}{ext}"
 
             destination = os.path.join(output_folder, new_filename)
@@ -92,8 +99,8 @@ def save_metadata(metadata, output_folder):
     
     print(f"Saved metadata to {json_path}")
 
+
 if __name__ == "__main__":
-    
     folder_path = input("Enter the path to the folder containing images and videos: ").strip().strip('"')
   
     metadata = rename_and_add_metadata(folder_path)
