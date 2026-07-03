@@ -1,10 +1,10 @@
-import './Card.scss';
+import './Gallery.scss';
 
-const Card = ({ filename, metadata }) => {
+const Card = ({ image }) => {
   return (
-    <div className="card" key={filename}>
-      <img src={`/images/compressed/${filename}`} alt={filename} loading="lazy" />
-      <div className="metadata">{metadata.taken || 'N/A'}</div>
+    <div className="card">
+      <img src={image.src} alt={image.title} loading="lazy" />
+      <p>{image.title}</p>
     </div>
   );
 };

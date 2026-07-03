@@ -1,0 +1,59 @@
+.gallery {
+  display: flex;
+  gap: 7rem;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  flex: 10;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  img {
+    max-width: 10rem;
+    border-radius: 5rem;
+  }
+}
+
+.filter {
+  flex: 1;
+  .year {
+    font-size: 1.5rem;
+    color: rgb(224, 224, 224);
+    margin-bottom: -0.2rem;
+    cursor: pointer;
+  }
+
+  .month {
+    padding-left: 0.3rem;
+    font-size: 1rem;
+    margin: 0.7rem 0rem;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  .month.active {
+    margin-left: 0.4rem;
+  }
+
+  .date.active {
+    color: rgb(255, 221, 31);
+    margin-left: 0.2rem;
+  }
+
+  .dates {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.2rem;
+    button {
+      background-color: transparent;
+      border: none;
+      font-size: 0.9rem;
+      cursor: pointer;
+      text-align: left;
+    }
+  }
+}

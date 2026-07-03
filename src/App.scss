@@ -4,6 +4,10 @@
   font-size: 16px;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: black;
   margin: 3rem 4rem;

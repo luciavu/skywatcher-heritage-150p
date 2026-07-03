@@ -12,24 +12,17 @@ const Navbar = () => {
         <Link className="nav-link" to="/notes">
           NOTES
         </Link>
-        <Dropdown
-          label="GALLERY"
-          items={[
-            { to: '/gallery', label: 'All' },
-            { to: '/gallery/moon', label: 'Moon' },
-            { to: '/gallery/planets', label: 'Planets' },
-            { to: '/gallery/stars', label: 'Stars' },
-            { to: '/gallery/dsos', label: 'DSOs' },
-          ]}
-        />
+        <Link className="nav-link" to="/gallery">
+          GALLERY
+        </Link>
 
         <Dropdown
           label="OTHER"
           items={[
             { to: '/calculator', label: 'Calculator' },
-            { to: '/othernotes', label: 'Notes' },
+            { to: '/simulator', label: 'Simulator' },
+            { to: '/camerasettings', label: 'Camera Settings' },
             { to: '/about', label: 'About' },
-            { to: '/contact', label: 'Contact' },
           ]}
         />
       </div>
