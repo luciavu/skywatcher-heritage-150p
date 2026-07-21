@@ -1,0 +1,86 @@
+[
+    {
+        "file": "2025-04-05_21-29-30.jpg",
+        "original_name": "IMG_7215.HEIC",
+        "taken": "2025:04:05 21:29:30",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/25",
+        "aperture": 1.8,
+        "iso": 500,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-04-05_21-31-15.jpg",
+        "original_name": "IMG_7216.HEIC",
+        "taken": "2025:04:05 21:31:15",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/15",
+        "aperture": 1.8,
+        "iso": 2000,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-04-05_21-32-01.jpg",
+        "original_name": "IMG_7217.HEIC",
+        "taken": "2025:04:05 21:32:01",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/46",
+        "aperture": 1.8,
+        "iso": 500,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-04-05_21-32-25.jpg",
+        "original_name": "IMG_7218.HEIC",
+        "taken": "2025:04:05 21:32:25",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/60",
+        "aperture": 1.8,
+        "iso": 160,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-04-05_21-45-33.jpg",
+        "original_name": "IMG_7219.HEIC",
+        "taken": "2025:04:05 21:45:33",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": 0.5,
+        "aperture": 1.8,
+        "iso": 2000,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-04-05_21-45-43.jpg",
+        "original_name": "IMG_7220.HEIC",
+        "taken": "2025:04:05 21:45:43",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/4",
+        "aperture": 1.8,
+        "iso": 3200,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-04-05_21-45-47.jpg",
+        "original_name": "IMG_7221.HEIC",
+        "taken": "2025:04:05 21:45:47",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/4",
+        "aperture": 1.8,
+        "iso": 3200,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    }
+]

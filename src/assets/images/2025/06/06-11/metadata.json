@@ -1,0 +1,38 @@
+[
+    {
+        "file": "2025-06-11_22-12-19.jpg",
+        "original_name": "IMG_8007.HEIC",
+        "taken": "2025:06:11 22:12:19",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/544",
+        "aperture": 1.8,
+        "iso": 32,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-06-11_22-12-20.jpg",
+        "original_name": "IMG_8008.HEIC",
+        "taken": "2025:06:11 22:12:20",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/544",
+        "aperture": 1.8,
+        "iso": 32,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    },
+    {
+        "file": "2025-06-11_22-32-03.jpg",
+        "original_name": "IMG_8020.HEIC",
+        "taken": "2025:06:11 22:32:03",
+        "device": "iPhone 11",
+        "lens": "iPhone 11 back dual wide camera 4.25mm f/1.8",
+        "shutter": "1/4",
+        "aperture": 1.8,
+        "iso": 3200,
+        "resolution": "4032x3024",
+        "megapixels": 12.2
+    }
+]

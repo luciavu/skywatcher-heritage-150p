@@ -1,0 +1,50 @@
+[
+  {
+    "file": "2026-06-11_17-51-25.jpg",
+    "original_name": "IMG_5456.HEIC",
+    "taken": "2026:06:11 17:51:25",
+    "device": "iPhone 16 Pro",
+    "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+    "shutter": 0.5,
+    "aperture": 1.8,
+    "iso": 2000,
+    "resolution": "4032x3024",
+    "megapixels": 12.2
+  },
+  {
+    "file": "2026-06-11_17-51-36.jpg",
+    "original_name": "IMG_5457.HEIC",
+    "taken": "2026:06:11 17:51:36",
+    "device": "iPhone 16 Pro",
+    "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+    "shutter": 0.5,
+    "aperture": 1.8,
+    "iso": 1250,
+    "resolution": "4032x3024",
+    "megapixels": 12.2
+  },
+  {
+    "file": "2026-06-11_17-51-50.jpg",
+    "original_name": "IMG_5458.HEIC",
+    "taken": "2026:06:11 17:51:50",
+    "device": "iPhone 16 Pro",
+    "lens": "iPhone 16 Pro back triple camera 15.66mm f/2.8",
+    "shutter": 0.5,
+    "aperture": 2.8,
+    "iso": 3200,
+    "resolution": "4032x3024",
+    "megapixels": 12.2
+  },
+  {
+    "file": "2026-06-11_18-00-56.jpg",
+    "original_name": "IMG_5460.HEIC",
+    "taken": "2026:06:11 18:00:56",
+    "device": "iPhone 16 Pro",
+    "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+    "shutter": 0.5,
+    "aperture": 1.8,
+    "iso": 32000,
+    "resolution": "4032x3024",
+    "megapixels": 12.2
+  }
+]
