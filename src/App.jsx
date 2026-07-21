@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar.jsx';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Gallery from './pages/Gallery.jsx';
+import PhotoDetail from './pages/PhotoDetail.jsx';
 import About from './pages/About.jsx';
 import Notes from './pages/Notes.jsx';
 import Calculator from './pages/Calculator.jsx';
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/gallery/:year/:month/:day/:filename" element={<PhotoDetail />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/simulator" element={<Simulator />} />

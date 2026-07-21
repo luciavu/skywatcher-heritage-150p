@@ -1,5 +1,5 @@
-const Tips = () => {
-  return <div>Tips</div>;
+const Simulator = () => {
+  return <div>Simulator</div>;
 };
 
-export default Tips;
+export default Simulator;

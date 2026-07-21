@@ -72,11 +72,13 @@ const Gallery = () => {
           }}
         />
       </div>
-
-      <div className="grid">
-        {filteredImages.map((image) => (
-          <Card key={image.filename} image={image} />
-        ))}
+      <div className="display">
+        <div className="log">Log message</div>
+        <div className="grid">
+          {filteredImages.map((image) => (
+            <Card key={image.filename} image={image} />
+          ))}
+        </div>
       </div>
     </div>
   );
